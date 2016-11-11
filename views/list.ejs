@@ -1,0 +1,12 @@
+
+<div class = "blogs">
+    <% for(var i = 0; i < blogPosts.length; i++){ %>
+      <h1>Post <%= i %></h1>
+      <h2><%= blogPosts[i].datetime%></h2>
+      <h2><%= blogPosts[i].title%></h2>
+      <h2><%= blogPosts[i].content%></h2>
+    <%}%>
+</div>
+
+
+
