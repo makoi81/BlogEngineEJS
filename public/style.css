@@ -1,0 +1,35 @@
+.header{
+	
+	background-color: blue;
+	color: white;		
+}
+.container{
+    width: 50%;
+    margin: 80px 50px 50px 200px; 
+    background-color: #F8F8F8;
+    border: 5px solid blue;
+    border-radius: 12px;	
+}
+.blogs{
+	 
+	background-color: #F8F8F8;
+	color: black;
+	text-align:center;
+	 	
+	border: 5px solid #blue;
+}
+.name{
+	margin: 1px 1px 1px 10px;
+	border: 15px solid #blue;
+}
+.content{
+border: 5px solid blue;
+}
+.submit{
+	bottom:0
+	border: 5px solid #373873;
+}
+.footer{
+	background-color: blue;
+	color: white;			
+}
