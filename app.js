@@ -9,7 +9,6 @@ app.use(express.static("public"));
 app.set('view engine','ejs');
 
 app.get('/list', function(req, res){
-
 	res.render('list', {blogPosts: blogPosts});
 });
 
@@ -23,7 +22,7 @@ app.post('/create', function(req, res){
 		            'title': req.body.title,
 		            'content':req.body.content,
 	                'datetime': d
-	    };
+	};
 	blogPosts.push(newEntry);
     res.render('index', {blogPosts: blogPosts});    
 });
