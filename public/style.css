@@ -1,5 +1,5 @@
 .header{
-	
+	text-align: center;
 	background-color: blue;
 	color: white;		
 }
@@ -10,26 +10,26 @@
     border: 5px solid blue;
     border-radius: 12px;	
 }
-.blogs{
-	 
+.blogs{ 
 	background-color: #F8F8F8;
 	color: black;
-	text-align:center;
-	 	
+	text-align:center; 	
 	border: 5px solid #blue;
 }
 .name{
 	margin: 1px 1px 1px 10px;
 	border: 15px solid #blue;
+	padding:10px 20px;
 }
 .content{
-border: 5px solid blue;
+	border: 5px solid blue;
 }
 .submit{
 	bottom:0
 	border: 5px solid #373873;
 }
 .footer{
+	text-align: center;
 	background-color: blue;
 	color: white;			
 }

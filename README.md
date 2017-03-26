@@ -1,3 +1,4 @@
 # BlogEngineEJ
- type "npm i" to install
-type "node app.js" to run 
+ 1.Type "npm i" to install
+
+2.Type "node app.js" to run 
